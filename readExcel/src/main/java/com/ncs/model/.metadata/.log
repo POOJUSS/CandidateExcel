@@ -1,0 +1,25 @@
+!SESSION 2018-11-23 08:01:19.978 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -Dosgi.requiredJavaVersion=1.8 -Dosgi.instance.area.default=@user.home/eclipse-workspace -XX:+UseG1GC -XX:+UseStringDeduplication --add-modules=ALL-SYSTEM -Dosgi.requiredJavaVersion=1.8 -Xms1024m -Xmx2048m --add-modules=ALL-SYSTEM -Dorg.eclipse.ecf.provider.filetransfer.excludeContributors=org.eclipse.ecf.provider.filetransfer.httpclient4
+Command-line arguments:  -data D:\SharedFolder\ReadExcel\readExcel\src\main\java\com\ncs\model -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -Dosgi.requiredJavaVersion=1.8 -Dosgi.instance.area.default=@user.home/eclipse-workspace -XX:+UseG1GC -XX:+UseStringDeduplication --add-modules=ALL-SYSTEM -Dosgi.requiredJavaVersion=1.8 -Xms1024m -Xmx2048m --add-modules=ALL-SYSTEM -Dorg.eclipse.ecf.provider.filetransfer.excludeContributors=org.eclipse.ecf.provider.filetransfer.httpclient4
+
+!ENTRY org.eclipse.core.net 4 0 2018-11-23 08:01:29.849
+!MESSAGE WinHttp.DetectAutoProxyConfigUrl for wpad failed with error 'The Proxy Auto-configuration URL was not found.
+' #12180.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-23 08:01:29.938
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\poojasi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 77 2018-11-23 08:02:04.323
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2018-11-23 08:02:04.323
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-11-23 08:02:04.323
+!MESSAGE D:\SharedFolder\ReadExcel\readExcel overlaps the workspace location: D:\SharedFolder\ReadExcel\readExcel\src\main\java\com\ncs\model
