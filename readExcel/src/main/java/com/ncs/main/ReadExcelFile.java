@@ -19,6 +19,7 @@ import com.google.gson.JsonParser;
 import com.ncs.model.Candidate;
 import com.ncs.util.ExcelConstants;
 import com.ncs.util.ExcelUtilHelper;
+import com.ncs.main.RestClient;
 
 public class ReadExcelFile {
 
@@ -45,13 +46,14 @@ public class ReadExcelFile {
 					// Iterating over each cell (column wise) in a particular row.
 					readCell(candidate, cellIterator);
 					candidateList.add(candidate);
-
+                    
 				}
 			}
 			final JsonObject jsonResult = ExcelUtilHelper.prepareJson(candidateList);
 			final String response = ExcelUtilHelper.prepareResult(ExcelConstants.SUCCESS_MSG,
 					ExcelConstants.SUCCESS_STATUS_CODE, jsonResult);
 			System.out.println(response.toString());
+			
 
 		} catch (FileNotFoundException e) {
 			final String response = ExcelUtilHelper.prepareResult(ExcelConstants.FAILURE_MSG,

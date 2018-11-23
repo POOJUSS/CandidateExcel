@@ -2,7 +2,7 @@ package com.ncs.util;
 
 public class ExcelConstants {
 
-	public static final String FILE_PATH = "E:\\perDocs\\project\\Candidate Upload Template.xlsx";
+	public static final String FILE_PATH = "D:\\Candidate Upload Template.xlsx";
 	public static final String SUCCESS_MSG = "Successful";
 	public static final String FAILURE_MSG = "FAILURE";
 	public static final String SUCCESS_STATUS_CODE = "200";
